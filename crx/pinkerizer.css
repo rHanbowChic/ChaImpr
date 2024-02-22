@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "verdana";
+    src:
+      local("verdana"),
+      url("assets/verdana.woff") format("woff");
+}
+
+body {
+    height: 400px;
+    width: 300px;
+    background: #faf9ff;
+    font-size: 17px;
+    font-family: 'verdana';
+    padding: 20px;
+}
+
+h1 {
+    font-weight: unset;
+    height: 42px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
+input[type=text] {
+    height: 32px;
+    width: 300px;
+    border-radius: 0;
+    border: 2px solid #ff899999;
+    caret-color: #ff899999;
+    background: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
+}
+textarea {
+    width: 300px;
+    height: 120px;
+    border-radius: 0;
+    border: 2px solid #ff899999;
+    caret-color: #ff899999;
+    background: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
+    resize: vertical;
+}
+input[type=button] {
+    border-radius: 0;
+    border: 2px solid #ff899999;
+    background: inherit;
+    font-size: 16px;
+    padding: 4px 8px;
+    margin-top: 20px;
+}
+input[type=button]:hover {
+    background: #ff899999;
+    color: #eee;
+}
+#formButtons {
+    float: right;
+}
+#footerFooter {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    font-size: 12px;
+    color: #999;
+}

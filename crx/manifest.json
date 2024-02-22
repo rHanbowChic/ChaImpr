@@ -1,0 +1,24 @@
+{
+    "name": "ChaImpr",
+    "description": "Chatting Improved for Note.ms",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+        "128": "favicon.png"
+    },
+    "action": {
+      "default_popup": "constructor.html",
+      "default_icon": "favicon.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://note.ms/*"],
+          "js": ["sabitsuki.js"]
+        }
+      ],
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "options_page": "options.html"
+}
