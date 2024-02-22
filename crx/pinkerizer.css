@@ -23,6 +23,9 @@ label {
     display: inline-block;
     width: 80px;
 }
+a {
+    color: inherit;
+}
 input[type=text] {
     height: 32px;
     width: 300px;
